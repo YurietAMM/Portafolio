@@ -1,3 +1,9 @@
+:root {
+  --color-negro: #000;
+  --color-gris:#2E2E2E;
+  --color-azul: #89ceff;  
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll; 
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.contenedor-sobre-mi {
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 15px;
+  padding: 10px 30px ;
+  margin: 0;
+}
+
+.contenedor-componente {
+  height: 100%;
+  max-width: 270px;
+}
+
+
+
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Rubik Distressed', cursive; */
+/* font-family: 'Rubik Marker Hatch', cursive; */
+/* font-family: 'Signika Negative', sans-serif; */

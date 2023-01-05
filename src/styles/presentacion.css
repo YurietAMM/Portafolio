@@ -1,0 +1,60 @@
+div {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.contenedor-presentacion {
+  height: auto;
+  margin-bottom: 0;
+}
+
+.contenedor-imagen {
+  width: 15em;
+}
+
+.foto-personal{
+  border-radius: 50%;
+}
+
+.contenedor-texto {
+  width: 100%;
+  margin: 2em auto;
+}
+
+.capacidades {
+  width: 100%;
+}
+
+.foto-personal, .logos-capacidades {
+  width: 100%;
+}
+
+.contenedor-imagen, .capacidades {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.saludo {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+@media (max-width: 380px) {
+  .contenedor-imagen {
+    width: 200px;
+  }
+}
+
+@media (max-width: 220px) {
+  .contenedor-imagen {
+    width: 150px;
+  }
+}
+
+@media (max-width: 170px) {
+  .contenedor-imagen {
+    width: 120px;
+  }
+  .contenedor-texto, .saludo {
+    font-size: 10px;
+  }
+}

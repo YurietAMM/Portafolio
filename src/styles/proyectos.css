@@ -1,0 +1,81 @@
+.contenedor-proyectos{
+    height: auto;
+}
+
+.unidad {
+    border: 2px solid #8080804d;
+    padding: 10px;
+    margin: 5px auto;
+    box-shadow: 3px 3px 4px 0px var(--color-gris);
+}
+
+.container-fluid{
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.row div{
+    height: 350px;
+    height: auto;
+}
+
+.exp-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.row {
+    padding: 10px;
+    height: auto;
+}
+
+.contenedor-proyectos i {
+    font-size: 2.5rem;
+    padding: 8px 19px;
+    border-radius: 50%;
+    background-color: var(--color-gris);
+    color: white;
+}
+
+.contenedor-bagges {
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 6px;
+}
+
+#bg-html {
+    background-color: #FF8000;
+    color: white;
+}
+
+#bg-js {
+    background-color: #FFFF00;
+    color: black;
+}
+
+#bg-bootstrap {
+    background-color: #712cf9;
+    color: white;
+}
+
+#bg-react {
+    background-color: #0cb7f2;
+    color: white;
+}
+
+#bg-c, #bg-net {
+    background-color: #8f2ea9;
+    color: white;
+}
+
+#bg-dm {
+    background-color: #FFFF7E;
+    color: #F54852;
+}

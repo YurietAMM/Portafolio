@@ -1,0 +1,23 @@
+#contactame {
+  height: auto;
+  width: 100%;
+  background-color: var(--color-gris);
+  padding: 2px 10px;
+  color: var(--color-azul);
+  margin-top: 10px;
+}
+
+.linkedin, .correo {
+  margin-left: 10px;
+  color: var(--color-azul);
+  align-items: center;
+}
+
+@media (max-width: 170px) {
+  .text-start {
+    font-size: 18px;
+  }
+  .linkedin, .correo {
+    font-size: 10px;
+  }
+}

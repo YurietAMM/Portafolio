@@ -1,0 +1,20 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: var(--color-gris); 
+}
+
+a {
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.navbar-toggler, .navbar-toggler-icon > button {
+    background-color: var(--color-azul);
+    color: #fff;
+}
